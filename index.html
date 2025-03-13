@@ -177,7 +177,7 @@
                     { label: "Transmission", value: "8-Speed Automatic" },
                     { label: "Fuel Economy", value: "25/32 MPG" },
                     { label: "Seating", value: "5 Passengers" },
-                    { label: "Starting Price", value: "$25,990" }
+                    { label: "Starting Price", value: "₹25,990" }
                 ]
             },
             {
@@ -191,7 +191,7 @@
                     { label: "Power", value: "320 HP" },
                     { label: "0-60 mph", value: "4.6 seconds" },
                     { label: "Battery", value: "77.4 kWh" },
-                    { label: "Starting Price", value: "$41,400" }
+                    { label: "Starting Price", value: "₹41,400" }
                 ]
             },
             {
@@ -205,7 +205,7 @@
                     { label: "Transmission", value: "8-Speed DCT" },
                     { label: "Fuel Economy", value: "22/29 MPG" },
                     { label: "Seating", value: "7 Passengers" },
-                    { label: "Starting Price", value: "$29,990" }
+                    { label: "Starting Price", value: "₹29,990" }
                 ]
             }
         ];
@@ -267,7 +267,7 @@
         window.addEventListener('scroll', function() {
             const heroImg = document.querySelector('.hero-bg');
             const scrollPos = window.scrollY;
-            heroImg.style.transform = `translateY(${scrollPos * 0.2}px)`;
+            heroImg.style.transform = `translateY(₹{scrollPos * 0.2}px)`;
         });
 
         // Test drive booking buttons
